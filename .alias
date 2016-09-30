@@ -15,6 +15,8 @@ alias gs="git status "
 alias ga="git add "
 alias gc="git commit "
 
-
 # Edit hosts
 alias hosts="sudo nano /etc/hosts"
+
+# vnc listener
+alias vnc="cd /Applications/VNC\ Viewer.app/Contents/MacOS/ && ./vncviewer -listen 5500"
