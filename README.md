@@ -1,15 +1,13 @@
 ## My playground in the world of git and emacs/orgmode
 
-*Setup;*
+*Setup:*
 
-    cd /path/to/Documents
+Clone repo into ~/Documents/repo/dotfiles;
 
-*Clone repository*
+    git clone git@github.com:norrkin/dotfiles.git ~/dotfiles
 
-    git clone git@github.com:norrkin/dotfiles.git
+*Create symbolic link:*
 
-*Create symbolic link*
-
-    ln -s ~/Documents/dotfiles/.emacs.d ~/.emacs.d
+    ln -s ~/Documents/repo/dotfiles/.emacs.d ~/.emacs.d
 
 Job done...
