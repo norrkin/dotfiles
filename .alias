@@ -5,9 +5,9 @@ alias ll="ls -al"
 
 # Shortcuts
 alias ..="cd .."
+alias ...="cd ../../"
 alias dc="cd ~/Documents"
 alias dl="cd ~/Downloads"
-alias rp="cd ~/Documents/repo"
 
 # ssh shortcut to nas - locally
 alias nas="ssh -p 3499 mark@nas"
@@ -16,14 +16,15 @@ alias nas="ssh -p 3499 mark@nas"
 alias tm="tmux new -s mark"
 alias tma="tmux a -t mark"
 
-# git
+# git commands
 alias g="git"
 alias gs="git status "
 alias ga="git add "
 alias gc="git commit "
+alias gp="git push -u origin master"
 
 # Edit hosts
 alias hosts="sudo nano /etc/hosts"
 
 # vnc listener
-alias vnc="cd /Applications/VNC\ Viewer.app/Contents/MacOS/ && ./vncviewer -listen 5500 | echo 'vnc listener running.'"
+alias vnc="cd /Applications/VNC\ Viewer.app/Contents/MacOS/ && ./vncviewer -listen 5500 | echo 'vnc listener is now running.'"
