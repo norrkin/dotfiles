@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# List all files
+# list all files
 alias ll="ls -al"
 
-# Shortcuts
+# shortcuts
 alias ..="cd .."
 alias ...="cd ../../"
 alias dc="cd ~/Documents"
@@ -23,8 +23,10 @@ alias ga="git add "
 alias gc="git commit "
 alias gp="git push -u origin master"
 
-# Edit hosts
+# edit hosts
 alias hosts="sudo nano /etc/hosts"
 
+# code
+alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
 # vnc listener
 alias vnc="cd /Applications/VNC\ Viewer.app/Contents/MacOS/ && ./vncviewer -listen 5500 | echo 'vnc listener is now running.'"
