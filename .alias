@@ -30,3 +30,7 @@ alias hosts="sudo nano /etc/hosts"
 alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
 # vnc listener
 alias vnc="cd /Applications/VNC\ Viewer.app/Contents/MacOS/ && ./vncviewer -listen 5500 | echo 'vnc listener is now running.'"
+
+#Firewall Rule enable/disable
+alias pfon="sudo pfctl -e -f /etc/pf.conf"
+alias pfoff="sudo pfctl -d"
