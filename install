@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# script to setup my dotfiles
+
+ln -sv ~/dotfiles/.alias ~
+ln -sv ~/dotfiles/.bash_profile ~
+ln -sv ~/dotfiles/.gitconfig ~
+ln -sv ~/dotfiles/.tmux.conf ~
+
+# irssi
+ln -sv ~/dotfiles/.irssi ~
+
+# emacs
+ln -s ~/dotfiles/.emacs.d ~/.emacs.d

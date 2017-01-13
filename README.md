@@ -2,12 +2,12 @@
 
 *Setup;*
 
-Clone repo into ~/Documents/repo/dotfiles;
+Clone repo into ~/;
 
-    $ git clone git@github.com:norrkin/dotfiles.git ~/Documents/repo/dotfiles
+    $ git clone git@github.com:norrkin/dotfiles.git ~/
 
 *Create symbolic links;*
 
-    $ cd ~/Documents/repo/dotfiles && ./install
+    $ cd ~/dotfiles && ./install
 
 Job done...
