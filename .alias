@@ -8,6 +8,7 @@ alias ..="cd .."
 alias ...="cd ../../"
 alias dc="cd ~/Documents"
 alias dl="cd ~/Downloads"
+alias rp="cd ~/repo"
 
 # ssh shortcut to nas - locally
 alias nas="ssh -p 3499 mark@nas"
