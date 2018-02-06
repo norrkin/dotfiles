@@ -11,4 +11,5 @@ Clone repo into ~/;
     $ cd ~/dotfiles && ./install
     $ source ~/.bash_profile
 
+
 Job done...
