@@ -9,5 +9,6 @@ Clone repo into ~/;
 *Create symbolic links;*
 
     $ cd ~/dotfiles && ./install
+    $ source ~/.bash_profile
 
 Job done...
