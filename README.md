@@ -4,7 +4,7 @@
 
 Clone repo into ~/;
 
-    $ git clone git@github.com:norrkin/dotfiles.git ~/
+    $ git clone git@github.com:norrkin/dotfiles.git ~/dotfiles
 
 *Create symbolic links;*
 
