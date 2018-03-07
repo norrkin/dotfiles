@@ -22,7 +22,7 @@ alias tma="tmux a -t mark"
 alias g="git"
 alias gs="git status "
 alias ga="git add "
-alias gc="git commit "
+alias gc="git commit -S "
 alias gp="git push -u origin master"
 
 # edit hosts
