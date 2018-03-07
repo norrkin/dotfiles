@@ -4,6 +4,7 @@
 alias ll="ls -al"
 
 # shortcuts
+alias ~="cd ~"
 alias ..="cd .."
 alias ...="cd ../../"
 alias dc="cd ~/Documents"
@@ -32,6 +33,5 @@ alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/co
 # vnc listener
 alias vnc="cd /Applications/VNC\ Viewer.app/Contents/MacOS/ && ./vncviewer -listen 5500 | echo 'vnc listener is now running.'"
 
-#Firewall Rule enable/disable
-alias pfon="sudo pfctl -e -f /etc/pf.conf"
-alias pfoff="sudo pfctl -d"
+# what's my ip
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"

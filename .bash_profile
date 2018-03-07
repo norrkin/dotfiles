@@ -2,6 +2,7 @@
 
 source ~/.alias
 
+# generate 20 character length password
 genpasswd() {
         local l=$1
         [ "$l" == "" ] && l=20
