@@ -1,4 +1,4 @@
-## My playground in the world of git and emacs/orgmode
+## My playground
 
 *Setup;*
 
@@ -9,6 +9,6 @@ Clone repo into ~/;
 *Create symbolic links;*
 
     $ cd ~/dotfiles
-    $ ./install && source ~/.bash_profile
+    $ ./install && source ~/.zshrc
 
 Job done...
