@@ -1,3 +1,5 @@
+## prompt
+PROMPT='%F{218}%1~%f%b %# '
 ## enable brew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
@@ -22,3 +24,6 @@ autoload -Uz compinit && compinit
 
 ## load aliases
 source ~/.alias
+
+## GPG
+export GPG_TTY=$(tty)
