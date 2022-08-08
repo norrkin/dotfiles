@@ -7,9 +7,7 @@ brew update
 ## tools
 brew install azure-cli
 brew install checkov
-# brew install docker-completion
 brew install hadolint
-# brew install helm
 brew install htop
 brew install jq
 brew install kubernetes-cli
