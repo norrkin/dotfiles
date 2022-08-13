@@ -7,6 +7,7 @@ brew update
 ## tools
 brew install azure-cli
 brew install checkov
+brew install gnupg
 brew install hadolint
 brew install htop
 brew install jq
