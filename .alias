@@ -10,7 +10,7 @@ alias rp="cd ~/repo"
 ## list all files
 alias ll="ls -al"
 ## tail file
-alias -s log="tail -f"
+alias log="tail -f"
 ## ssh shortcut to nas - locally
 alias nas="ssh -p 3499 mark@nas"
 ## open vs code
