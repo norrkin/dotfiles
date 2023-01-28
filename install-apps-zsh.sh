@@ -3,6 +3,7 @@
 brew install --cask brave-browser
 brew install --cask docker
 brew install --cask google-chrome
+brew install --cask openlens
 brew install --cask parallels
 brew install --cask postman
 brew install --cask rectangle
