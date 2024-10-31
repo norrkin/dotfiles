@@ -17,3 +17,8 @@ alias nas="ssh -p 3499 mark@nas"
 alias code="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
 ## whats my ip
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+
+## initise terraform
+alias tf="terraform init --upgrade -backend=false"
+## run pre-commit against all files
+alias pc="pre-commit run --all-files"

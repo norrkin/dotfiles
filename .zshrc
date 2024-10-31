@@ -43,3 +43,6 @@ autoload -Uz compinit && compinit
 
 ## GPG
 export GPG_TTY=$(tty)
+
+autoload bashcompinit && bashcompinit
+source $(brew --prefix)/etc/bash_completion.d/az
